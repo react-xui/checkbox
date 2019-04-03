@@ -16,7 +16,7 @@ export default class Checkbox extends React.Component{
     checkChange(e){
         const changeFunc = this.props.onChange;
         if(changeFunc){
-            changeFunc(e.target.value);
+            changeFunc(e);
         }
     }
     componentWillReceiveProps(nextProps){
