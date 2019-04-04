@@ -1,14 +1,14 @@
 {
   "name": "x-paging",
   "version": "0.0.1",
-  "description": "react xui  x-paing 分页组件",
+  "description": "react xui  x-checkbox 复选框组件",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-xui/x-paging.git"
+    "url": "https://github.com/react-xui/x-checkbox.git"
   },
-  "homepage": "https://github.com/react-xui/x-paging",
-  "bugs": "https://github.com/react-xui/x-paging/issues",
+  "homepage": "https://github.com/react-xui/x-checkbox",
+  "bugs": "https://github.com/react-xui/x-checkbox/issues",
   "directories": {
     "example": "examples"
   },
@@ -28,7 +28,7 @@
     "docs:publish": "cd _book && git init && git checkout -b gh-pages && git add --all && git commit -am \"update book\" && git push git@github.com:react-plugin/x-paging gh-pages --force"
   },
   "authors": [
-    "tianxiangbing"
+    "luoxianze"
   ],
   "license": "MIT",
   "devDependencies": {
